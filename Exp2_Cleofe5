@@ -1,0 +1,23 @@
+#include <iostream>
+#include <conio.h>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+    int Varia = 1;
+    
+    for (Varia=1;Varia<=10;Varia++)
+    cout << Varia << endl;
+    
+    system("pause");
+
+
+    for (Varia=12;Varia<=30;Varia+=2)
+    cout << Varia << endl;
+
+system("pause");
+
+return 0;
+}
