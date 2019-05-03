@@ -1,0 +1,26 @@
+#include <conio.h>
+#include <iostream>
+
+using namespace std;
+
+int main()
+    {
+        int A, B, SUMMATION; 
+        
+        cout << "Enter the first number" << endl;
+        cin >> A;
+        
+        cout << "Enter the last number" << endl;
+        cin >> B;
+
+        for ( int number = A; number <= B; number += A )
+        
+        {
+           SUMMATION += number; 
+        }
+        
+        cout << "The summation from number "<< A <<" to "<< B <<" is " << SUMMATION << endl; 
+        
+        return 0;
+        
+    }
