@@ -1,0 +1,27 @@
+#include<conio.h>
+#include<string>
+#include<iostream>
+
+using namespace std;
+
+int main()
+{
+	{
+		
+	float UnpaidBal, Bill, Gallon, PenaltyBill;
+
+	cout << "Water consumed in gallons" << endl;
+	cin >> Gallon;
+	Bill = (Gallon * 1.10) + 35;
+	cout << "Unpaid balance (if applicable), else put 0" << endl;
+	cin >> UnpaidBal;
+	PenaltyBill = Bill + 20;
+	if (UnpaidBal>0)
+	cout << PenaltyBill << "Price to be paid in Php" << endl;
+	else if (UnpaidBal==0)
+	cout << Bill <<"Price to be paid in Php" <<endl;
+	else
+	cout << "Invalid Input" << endl;
+	return 0;
+	
+	}
