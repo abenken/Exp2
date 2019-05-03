@@ -1,0 +1,22 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+    float Varia;
+
+    cout << "Enter a number" << endl;
+    cin >> Varia;
+
+    for (float Varia2 = 1; Varia2 <= 10; ++Varia2)
+	{
+		
+        cout << Varia << " * " << Varia2 << " = " << Varia * Varia2 << endl;
+        
+    }
+
+    return 0;
+    
+}
