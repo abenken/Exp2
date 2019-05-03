@@ -1,0 +1,29 @@
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main()
+{
+    int number, firstnumber=2, secondnumber=3, nextnumber;
+    
+    cout << "The next 20 numbers of the Fibonacci sequence after 0 and 1 are" << endl;
+    number=20;
+
+    for(int x=0;x<number;x++)
+    
+    {
+    	
+    	cout << firstnumber <<",";
+    	
+    	nextnumber = firstnumber+secondnumber;
+    	
+    	firstnumber = secondnumber;
+    	
+    	secondnumber = nextnumber;
+    	
+	}
+	
+return 0;
+
+}
